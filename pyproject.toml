@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "neo4jpy37"
+version = "0.1.0"
+description = ""
+authors = ["ihrskyfish <ihr17867950748@126.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+py2neo = "^2021.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
